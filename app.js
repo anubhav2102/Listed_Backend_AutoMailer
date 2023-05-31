@@ -49,7 +49,7 @@ async function checkAndRespondToEmails() {
     const email = msgRes.data;
 
     // Check if the email thread has prior replies
-    const hasPriorReplies = email.threadId && email.payload.headers.some((header) => header.name === 'From' && header.value === 'anubhavladha11@gmail.com');
+    const hasPriorReplies = email.threadId && email.payload.headers.some((header) => header.name === 'From' && header.value === 'anubhavladha9426@gmail.com');
 
     if (!hasPriorReplies) {
       // Compose and send the reply email
